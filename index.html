@@ -1,0 +1,57 @@
+<html>
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <img src="./img/Nyancat.webp" />
+      <h1>Meme maker</h1>
+    </div>
+  </div>
+  <div class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+          <div class="meme thumbnail">
+            <img id="meme" src="https://www.petfinder.com/wp-content/uploads/2012/11/140272627-grooming-needs-senior-cat-632x475.jpg">
+            <h1 class="top-caption">Miou Miou</h1>
+            <h1 class="bottom-caption">Miou</h1>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+
+          <div class="tool">
+            <h2>Create your meme</h2>
+            <form role="form">
+              <div class="form-group">
+                <label>Enter an Image URL</label>
+                <input id="image-url" type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label> Enter Top text</label>
+                <input id="top-text" type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Enter Bottom text</label>
+                <input id="bottom-text" type="text" class="form-control">
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
